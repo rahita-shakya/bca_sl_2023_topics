@@ -94,3 +94,14 @@ let group_one = ["Red", "Blue"];
 let group_two = ["Green", "Yellow"];
 let group = group_one.concat(group_two);
 console.log(group);
+
+//8. flat() - converts multi dimension array to single flat array
+let cities=[["KTM","pokhara"],["Butwal","Hetauda","Jhapa"]]
+let cities_nepal=cities.flat()
+console.log(cities)
+console.log(cities_nepal)
+
+// //9. Delete 
+// let  fruits = ["Banana", "Orange", "Apple", "Mango"];
+// delete fruits([0])
+// console.log(fruits)
