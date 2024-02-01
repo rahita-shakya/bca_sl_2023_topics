@@ -104,6 +104,3 @@ let address = "Baneshwor     "
 console.log("Actual:" +address);
 console.log("Result:" +address.trimEnd());
 console.log("");
-
-
-
